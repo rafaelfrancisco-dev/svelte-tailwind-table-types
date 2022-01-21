@@ -2,6 +2,10 @@
 
 The last Svelte Table library you will ever need. A Svelte component for rendering a dynamic table using tailwind CSS
 
+##
+
+This is a hard fork of [svelte-tailwind-table](https://www.npmjs.com/package/svelte-tailwind-table) since the original repository on GitLab couldn't be reached and I wanted to add types and SvelteKit-style imports.
+
 ---
 ### Check out the [demo]
 ---
