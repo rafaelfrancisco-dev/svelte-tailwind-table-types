@@ -1,12 +1,8 @@
 {
-	"name": "svelte-tailwind-table",
-	"version": "0.9.11",
-	"description": "A Svelte component for rendering a dynamic table using tailwind",
-	"main": "dist/index.js",
-	"module": "dist/index.mjs",
-	"svelte": "src/Table.svelte",
+	"name": "svelte-tailwind-table-types",
+	"version": "1.0",
+	"description": "A Svelte component for rendering a dynamic table using tailwind, now with types !",
 	"scripts": {
-		"build": "svelte-kit build",
 		"package": "svelte-kit package"
 	},
 	"keywords": [
@@ -16,9 +12,9 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://gitlab.com/aztlan1/svelte_table.git"
+		"url": "git+https://github.com/rafaelfrancisco-dev/svelte-tailwind-table-types.git"
 	},
-	"author": "Priyav K Kaneria <priyavkaneria@gmail.com>",
+	"author": "Rafael Francisco <rafaelfrancisco6@gmail.com>",
 	"license": "ISC",
 	"devDependencies": {
 		"svelte": "^3.42.1",
@@ -26,10 +22,6 @@
 		"@sveltejs/kit": "next",
 		"@sveltejs/adapter-auto": "next"
 	},
-	"bugs": {
-		"url": "https://gitlab.com/aztlan1/svelte_table/issues"
-	},
-	"homepage": "https://svelte-tailwind-table-demo.vercel.app/",
 	"dependencies": {
 		"design-system-svelte": "0.0.15"
 	},
