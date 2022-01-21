@@ -1,6 +1,6 @@
 {
 	"name": "svelte-tailwind-table-types",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "A Svelte component for rendering a dynamic table using tailwind, now with types !",
 	"scripts": {
 		"package": "svelte-kit package"
