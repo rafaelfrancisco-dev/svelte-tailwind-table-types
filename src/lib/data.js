@@ -1,4 +1,4 @@
-import CustomComponent from "../Atoms/CustomComponent.svelte"
+import CustomComponent from "./Atoms/CustomComponent.svelte"
 export const defaultColData = [
 	[
 		"checkbox",

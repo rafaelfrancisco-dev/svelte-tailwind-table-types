@@ -5,8 +5,8 @@
 	import { createEventDispatcher } from "svelte"
 	const dispatch = createEventDispatcher()
 
-	import TableCell from "../Atoms/TableCell.svelte"
-	import TableHeader from "../Atoms/TableHeader.svelte"
+	import TableCell from "./Atoms/TableCell.svelte"
+	import TableHeader from "./Atoms/TableHeader.svelte"
 	import { defaultColData, defaultRowData } from "./data"
 	export let colData = defaultColData
 	export let rowData = defaultRowData
