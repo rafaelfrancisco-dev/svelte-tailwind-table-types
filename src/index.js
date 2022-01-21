@@ -1,3 +1,3 @@
-import Table from './Table.svelte'
+import Table from './lib/Table.svelte'
 
 export default Table

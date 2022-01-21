@@ -6,9 +6,8 @@
 	"module": "dist/index.mjs",
 	"svelte": "src/Table.svelte",
 	"scripts": {
-		"build": "rollup -c",
-		"prepare": "npm run build",
-		"dev": "rollup -c -w"
+		"build": "svelte-kit build",
+		"package": "svelte-kit package"
 	},
 	"keywords": [
 		"svelte",
@@ -22,12 +21,10 @@
 	"author": "Priyav K Kaneria <priyavkaneria@gmail.com>",
 	"license": "ISC",
 	"devDependencies": {
-		"@rollup/plugin-commonjs": "^18.0.0",
-		"rollup": "^2.56.2",
-		"rollup-plugin-css-only": "^3.1.0",
-		"rollup-plugin-node-resolve": "^5.2.0",
-		"rollup-plugin-svelte": "^7.1.0",
-		"svelte": "^3.42.1"
+		"svelte": "^3.42.1",
+		"svelte-preprocess": "^4.10.1",
+		"@sveltejs/kit": "next",
+		"@sveltejs/adapter-auto": "next"
 	},
 	"bugs": {
 		"url": "https://gitlab.com/aztlan1/svelte_table/issues"
