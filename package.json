@@ -32,5 +32,6 @@
 	"homepage": "https://svelte-tailwind-table-demo.vercel.app/",
 	"dependencies": {
 		"design-system-svelte": "0.0.15"
-	}
+	},
+	"type": "module"
 }
