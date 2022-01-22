@@ -217,13 +217,6 @@
 	// console.log(datatypelist, "This is list of datatypes in table")
 </script>
 
-<svelte:head>
-	<link
-		href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-		rel="stylesheet"
-	/>
-</svelte:head>
-
 <div class="flex flex-col table-classes {overrideClasses}">
 	<div class="flex flex-row justify-end">
 		{#if showSearchBar}
