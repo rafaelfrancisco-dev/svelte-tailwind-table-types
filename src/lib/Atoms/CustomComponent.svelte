@@ -1,4 +1,5 @@
 <script>
+	import "../tailwind.css";
 	import { createEventDispatcher } from "svelte"
 	const dispatch = createEventDispatcher()
 	export let classes = "w-min"

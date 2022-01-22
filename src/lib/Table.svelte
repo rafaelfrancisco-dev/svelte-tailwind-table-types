@@ -1,4 +1,5 @@
 <script>
+	import "./tailwind.css";
 	import { onMount } from "svelte"
 	import { writable } from "svelte/store"
 	import Design from "design-system-svelte"

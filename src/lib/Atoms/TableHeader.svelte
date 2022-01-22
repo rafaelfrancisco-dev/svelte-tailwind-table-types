@@ -1,4 +1,5 @@
 <script>
+	import "../tailwind.css";
 	import { createEventDispatcher, onMount } from "svelte"
 	const dispatch = createEventDispatcher()
 
